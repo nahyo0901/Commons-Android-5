@@ -15,7 +15,7 @@
         <item name="colorControlHighlight">@color/activated_item_foreground</item>
         <item name="bottomSheetDialogTheme">@style/BottomSheetDialogTheme</item>
         <item name="android:actionModeCloseDrawable">@drawable/ic_arrow_left_vector</item>
-        <item name="android:forceDarkAllowed">false</item>
+        <item name="android:forceDarkAllowed" tools:ignore="NewApi">false</item>
         <item name="windowActionModeOverlay">true</item>    <!-- replace casual top menu with contextual menu after long pressing an item -->
         <item name="android:actionOverflowButtonStyle">@style/ActionMenuOverflowIcon</item>
     </style>
